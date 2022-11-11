@@ -1,0 +1,164 @@
+/* ### 版面設計 ###*/
+body{background-color: white;
+     margin: 0px 0px;
+     font-family:Arial, '新細明體', sans-serif;
+     overflow: scroll;}
+
+body::-webkit-scrollbar{width: 12px;}
+  
+body::-webkit-scrollbar-thumb {
+  background-color: #E6E6E6;
+  border-radius: 6px;
+  border: 0px solid slategrey;
+}
+
+/*### 版面容器 ###*/
+#container   {width: 100%;
+              margin:0;} 
+
+#header      {background-color:#2B2B2B;
+              z-index: 999;
+              position: fixed;
+              top: 0;
+              width: 100%;
+              margin: 0 auto;}
+
+#postcontent  {width: 100%;
+       height: auto;
+      overflow: auto;
+               display:flex;
+               flex-wrap: wrap;
+               flex-direction:horizontal;
+               justify-content: center;}
+
+#postcontent::-webkit-scrollbar{width: 8px;}
+#postcontent::-webkit-scrollbar-thumb {
+  background-color: #E6E6E6;
+  border-radius: 8px;
+  border: 0px solid slategrey;}
+
+#about{margin: 80px 20px;
+padding-top: 80px;}
+
+
+#about h1{font: 14px;
+          font-family: 華康華藝體W4;}
+
+
+#about img {width: 35%;
+            float: left;
+            margin: 20px;}
+
+.post    {float: left; margin:25px 15px ;}
+
+
+
+/*### 浮動菜單 ###*/
+#site   {float: left;}
+#site h1 {margin: 0;}
+#site img {vertical-align: center;
+           margin-left: 20px;
+           margin-top: 6px;
+           width: 70px;}
+
+
+/*### 浮動菜單選項 ###*/
+#nav  {float: right;
+margin: 0px;}
+
+#nav ul  {margin: 0px;
+          padding: 0;}
+
+#nav li  {list-style-type: none;
+          float: left;font-weight: bold;}
+
+#nav li a{
+  color: white; 
+  text-decoration: none; 
+  position: relative; 
+  transition: 0.5s; }
+
+.navE{
+    font-size: 16px;
+    font-family: 微軟正黑體;
+    display: inline-block;
+    vertical-align: left;
+    position: relative;
+    margin: 25px 20px;
+    }
+
+.navE:after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: all .3s linear;
+    }
+
+.navE:hover::after{width: 100%;}
+
+#header   {overflow: hidden;}
+
+
+.post a:hover {background-color: #DADADA}
+
+/* ### FOOTER ###*/
+#footer  {background-color: #32547D;
+         padding: 15px;}
+
+
+#footer p  {float: left;
+            margin-top: 10px;
+            color: white;}
+
+#iconmenu  {float: right;}
+
+#iconmenu ul  {margin: 0;
+               padding: 3px 0 0;}
+
+#iconmenu li  {display: inline;
+               list-style-type: none;}
+
+#iconmenu img  {border:none;
+                width: 28px;}
+
+#submenu       {clear: both;
+               font-family: 'Maven Pro', Helvetica, Arial, san-serif;
+               font-size: 12px;
+               overflow: hidden;} 
+
+#submenu ul       {margin: 3px;
+               padding: 0;}
+
+#submenu li       {list-style-type: none;
+               float: left; }
+
+#submenu li a  {display: block;
+               width: auto;
+               border-right: solid 1px #ffffff;
+               text-align: center;
+               text-decoration: none;
+             color: white;
+             font-weight: bold;
+             padding-right: 6px;
+             margin-right: 3px;}
+
+#submenu li:last-child a 
+            {border: none;}
+#submenu li + li + li a {border:none;}
+
+small  {font-size: 12px;
+        font-weight: bold;
+        display: block;
+        color: white;
+        margin-top: 10px;}
+
+
+
+
+
+
+
