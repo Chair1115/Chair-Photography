@@ -37,17 +37,36 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
   border: 0px solid slategrey;}
 
-#about{margin: 80px 20px;
-padding-top: 80px;}
+/*### about ###*/
 
+#about {width: 80%;
+        display:flex;
+        align-items:center;
+        justify-content:center;}
 
-#about h1{font: 14px;
-          font-family: 華康華藝體W4;}
+#about img {width: 18%;
+            padding-top: 150px;
+            margin: 30px;
+           -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7));
+            filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.7))}
 
+#about h1 {font-size: 18px;
+           color: #2D2D2D;
+           text-align:center;
+           font-family: 華康儷細黑體,Bahnschrift;
+           padding-top: 0px;}
 
-#about img {width: 35%;
-            float: left;
-            margin: 20px;}
+#aboutme  {width: 50%;
+           height: 0 auto;
+           vertical-align: middle;
+           word-wrap:break-word;
+           
+           text-align:center;
+           font-size: 16px;
+           color: #2D2D2D;
+           font-family: 華康儷細黑體,Bahnschrift;
+           padding-bottom: 15px;}
+
 
 .post    {float: left; margin:25px 15px ;}
 
