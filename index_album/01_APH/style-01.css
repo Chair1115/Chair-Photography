@@ -69,10 +69,11 @@ body::-webkit-scrollbar-thumb {
 #layout_2M  img {width: 40%;margin: 5px 20px;}
 
 /*直式x1 置中*/
-#layout1B{display:flex;
-           align-items:center;
-           justify-content:center;
-           background-color: black;}
+#layout1B{width: 100%;
+          display:flex;
+          align-items:center;
+          justify-content:center;
+          background-color: black;}
 #layout1B img {width: 40%;}
 
 /*直式x2 靠左*/
