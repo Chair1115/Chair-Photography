@@ -80,14 +80,14 @@ body::-webkit-scrollbar-thumb {
 
 /*直式x2 置中*/
 #layout2S{display:flex;
-           align-items:center;
-           justify-content:center;}
+          align-items:center;
+          justify-content:center;}
 #layout2S  img {width: 30%;margin: 5px 15px;}
 
 /*直式x3 置中*/
 #layout3S{display:flex;
-           align-items:center;
-           justify-content:center;}
+          align-items:center;
+          justify-content:center;}
 #layout3S  img {width: 30%;margin: 5px 15px;}
 
 
