@@ -69,12 +69,12 @@ body::-webkit-scrollbar-thumb {
 #layout_2M  img {width: 40%;margin: 5px 20px;}
 
 /*直式x1 置中*/
-#layout1B{width: 100%;
+#layout1S{max-width: 100%;
           display:flex;
           align-items:center;
           justify-content:center;
           background-color: black;}
-#layout1B img {width: 40%;}
+#layout1S img {width: 40%;}
 
 /*直式x2 靠左*/
 
@@ -91,6 +91,17 @@ body::-webkit-scrollbar-thumb {
           justify-content:center;}
 #layout3S  img {width: 30%;margin: 5px 15px;}
 
+/*滿版直橫*/
+#layout_2SH1{width: 100%;display:flex;
+             align-items:center;
+             justify-content:right;
+             background-color: black;}
+#layout_2SH1 img {margin-left:30px;}
+
+#THX {font-size: 12pt;
+    font-family: 華康中圓體;
+    color: #2D2D2D;
+    text-align: center;}
 
 /*### 浮動菜單 ###*/
 #site   {float: left;}
@@ -153,12 +164,12 @@ margin: 0px;}
 
 /*填白*/
 #blank_A {width: 100%;
-        height:300px ;
-        display: block;color: white;}
+          height:300px ;
+          display: block;}
 
 #blank_B {width: 100%;
-        height:30px ;
-        display: block;color: white;}
+          height:30px ;
+          display: block;}
 
 /* ### FOOTER ###*/
 #footer  {background-color: #32547D;
