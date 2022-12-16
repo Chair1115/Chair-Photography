@@ -113,7 +113,7 @@ margin: 0px;}
 
 #headerpost .more  {font-size: 18px;
                     font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
-                    text-align: center;}
+                    font-weight: bold;text-align: center;}
 
 #headerpost .more a {color: #000000;
                      background-image: url(img/more.png);
@@ -164,6 +164,7 @@ margin: 0px;}
                 color: #4D4D4D;
                 font-size: 12px;
                 font-family:微軟中黑體;
+                font-weight: 1000;
 
                 border-radius: 10px;
                 background-color: #DEDEDE;
