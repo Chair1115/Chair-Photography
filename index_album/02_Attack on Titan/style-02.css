@@ -54,7 +54,7 @@ body::-webkit-scrollbar-thumb {
         margin-top: 83px;}      
               
 /*橫式滿版*/
-#layout_1B  img {width: 100%;}
+#layout_1B  img {width: 100%;margin-bottom: 5px;}
 
 /*橫式靠右*/
 #layout_1BR img {width: 75%;float: right;}
@@ -73,7 +73,9 @@ body::-webkit-scrollbar-thumb {
           display:flex;
           align-items:center;
           justify-content:center;
-          background-color: black;}
+          background-color: white;
+          margin-bottom: 10px
+    }
 #layout1S img {width: 40%;}
 
 /*直式x2 靠左*/
@@ -95,7 +97,8 @@ body::-webkit-scrollbar-thumb {
 #layout_2SH1{width: 100%;display:flex;
              align-items:center;
              justify-content:right;
-             background-color: black;}
+             background-color: black;
+             margin-bottom: 5px;}
 #layout_2SH1 img {margin-left:30px;}
 
 #THX {font-size: 12pt;

@@ -23,7 +23,7 @@ body::-webkit-scrollbar-thumb {
               width: 100%;
               margin: 0 auto;}
 
-#postcontent  {width: 100%;
+#postcontent  {width: 80%;
                height: auto;
                overflow: auto;
                display:flex;
@@ -37,39 +37,44 @@ body::-webkit-scrollbar-thumb {
   border-radius: 8px;
   border: 0px solid slategrey;}
 
-.post    {float: left; margin:25px 15px ;}
+
 
 /*### 相簿排版 ###*/
 
-#layout{width: 100%;
-        height: auto;
-        overflow: auto;
-        display:flex;
+
+#layout{display:flex;
+        position: relative;
         flex-wrap: wrap;
-        align-items:center;
+        flex-direction:column;
         justify-content: center;
-       
-        -
-        margin-bottom: 30px;
-        margin-top: 83px;}      
+        align-items: center;
+        white-space:pre-wrap;
+        overflow: auto;} 
+
+.layout{width:75%;
+        height: auto;
+    }  
               
 /*橫式滿版*/
 #layout_1B  img {width: 100%;}
 
 /*橫式靠右*/
-#layout_1BR img {width: 75%;float: right;}
+#layout_1BR img {width: 70%;float: right;}
 
-/*橫式靠右*/
-#layout_1BL img {width: 75%;float: left;}
+/*橫式靠左*/
+#layout_1BL img {width: 70%;}
+.layout_1BL{width: 100%}
 
 /*橫式x2 置中*/
-#layout_2M{display:flex;
+#layout_2M{width:100%;
+           display:flex;
            align-items:center;
-           justify-content:center;}
-#layout_2M  img {width: 40%;margin: 5px 20px;}
+           justify-content:center;
+       }
+#layout_2M  img {width: 40%;margin: 0px 20px;}
 
 /*直式x1 置中*/
-#layout1S{max-width: 100%;
+#layout1S{width: 100%;
           display:flex;
           align-items:center;
           justify-content:center;
@@ -80,16 +85,20 @@ body::-webkit-scrollbar-thumb {
 
 
 /*直式x2 置中*/
-#layout2S{display:flex;
+#layout2S{width:100%;
+          display:flex;
           align-items:center;
           justify-content:center;}
 #layout2S  img {width: 30%;margin: 5px 15px;}
 
 /*直式x3 置中*/
-#layout3S{display:flex;
+#layout3S{width:100%;
+          display:flex;
           align-items:center;
           justify-content:center;}
-#layout3S  img {width: 30%;margin: 5px 15px;}
+#layout3S  img {width: 32%;margin: 5px 15px;}
+
+
 
 /*滿版直橫*/
 #layout_2SH1{width: 100%;display:flex;
