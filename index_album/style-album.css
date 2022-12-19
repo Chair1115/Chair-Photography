@@ -36,14 +36,16 @@ body::-webkit-scrollbar-thumb {
                flex-direction:horizontal;
                justify-content: center;
                margin-top: 100px}
-
+#postcontent h1{margin: auto;
+    font-family: Segoe Print}
+    
 #postcontent::-webkit-scrollbar{width: 8px;}
 #postcontent::-webkit-scrollbar-thumb {
   background-color: #E6E6E6;
   border-radius: 8px;
   border: 0px solid slategrey;}
 
-.post    {float: left; margin:0px 20px ;}
+.post    {float: left; margin:auto;}
 
 
 
@@ -134,7 +136,7 @@ margin: 0px;}
            font-family: 華康華藝體W4;
            margin-bottom: 20px;}
 
-.post img {width: 320px;
+.post img {width: 420px;
            height: auto;
            vertical-align: bottom;
            border:none;}

@@ -41,39 +41,44 @@ body::-webkit-scrollbar-thumb {
 
 /*### 相簿排版 ###*/
 
-#layout{width: 100%;
-        height: auto;
-        overflow: auto;
-        display:flex;
+#layout{display:flex;
+        position: relative;
         flex-wrap: wrap;
-        align-items:center;
+        flex-direction:column;
         justify-content: center;
-       
-        -
-        margin-bottom: 30px;
-        margin-top: 83px;}      
+        align-items: center;
+        white-space:pre-wrap;
+        overflow: auto;} 
+
+.layout{width:75%;
+        height: auto;}      
               
 /*橫式滿版*/
 #layout_1B  img {width: 100%;}
 
 /*橫式靠右*/
-#layout_1BR img {width: 75%;float: right;}
+#layout_1BR img {width: 70%;}
+.layout_1BR{width: 100%}
 
 /*橫式靠右*/
-#layout_1BL img {width: 75%;float: left;}
+#layout_1BL img {width: 70%;}
+.layout_1BL{width: 100%}
 
 /*橫式x2 置中*/
-#layout_2M{display:flex;
+#layout_2M{width:100%;
+           display:flex;
            align-items:center;
            justify-content:center;}
-#layout_2M  img {width: 40%;margin: 5px 20px;}
+#layout_2M  img {width:49%;margin:auto}
 
 /*直式x1 置中*/
 #layout1S{max-width: 100%;
           display:flex;
           align-items:center;
           justify-content:center;
-          background-color: black;}
+          background-color: white;
+          margin-bottom: 10px
+    }
 #layout1S img {width: 40%;}
 
 /*直式x2 靠左*/
@@ -95,8 +100,16 @@ body::-webkit-scrollbar-thumb {
 #layout_2SH1{width: 100%;display:flex;
              align-items:center;
              justify-content:right;
-             background-color: black;}
+             background-color: black;
+             margin-bottom: 5px;}
 #layout_2SH1 img {margin-left:30px;}
+
+#layout_1SH1{width: 100%;display:flex;
+             align-items:center;
+             justify-content:left;
+             background-color: black;
+             margin-bottom: 5px;}
+#layout_1SH1 img {margin-right:30px;}
 
 #THX {font-size: 12pt;
     font-family: 華康中圓體;

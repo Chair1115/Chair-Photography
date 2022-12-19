@@ -52,8 +52,7 @@ body::-webkit-scrollbar-thumb {
         overflow: auto;} 
 
 .layout{width:75%;
-        height: auto;
-    }  
+        height: auto;}  
               
 /*橫式滿版*/
 #layout_1B  img {width: 100%;}
@@ -69,9 +68,8 @@ body::-webkit-scrollbar-thumb {
 #layout_2M{width:100%;
            display:flex;
            align-items:center;
-           justify-content:center;
-       }
-#layout_2M  img {width: 40%;margin: 0px 20px;}
+           justify-content:center;}
+#layout_2M  img {width:49%;margin:auto}
 
 /*直式x1 置中*/
 #layout1S{width: 100%;
@@ -101,11 +99,11 @@ body::-webkit-scrollbar-thumb {
 
 
 /*滿版直橫*/
-#layout_2SH1{width: 100%;display:flex;
+#layout_2SH1{width: 100%;
+             display:flex;
              align-items:center;
-             justify-content:right;
-             background-color: black;}
-#layout_2SH1 img {margin-left:30px;}
+             justify-content:right;}
+#layout_2SH1 img {margin:auto;}
 
 #THX {font-size: 12pt;
     font-family: 華康中圓體;
