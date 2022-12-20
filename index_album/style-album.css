@@ -23,11 +23,6 @@ body::-webkit-scrollbar-thumb {
               width: 100%;
               margin: 0 auto;}
 
-
-#loop  {margin-bottom: 30px;
-        margin-top: 83px;}
-
-
 #postcontent  {width: 100%;
                height: auto;
                overflow: auto;
@@ -37,15 +32,14 @@ body::-webkit-scrollbar-thumb {
                justify-content: center;
                margin-top: 100px}
 #postcontent h1{margin: auto;
-    font-family: Segoe Print}
+                font-size: 18px;
+                font-family: Segoe Print}
     
 #postcontent::-webkit-scrollbar{width: 8px;}
 #postcontent::-webkit-scrollbar-thumb {
   background-color: #E6E6E6;
   border-radius: 8px;
   border: 0px solid slategrey;}
-
-.post    {float: left; margin:auto;}
 
 
 
@@ -105,29 +99,6 @@ margin: 0px;}
                   vertical-align: bottom;
                   width: 745px;}
 
-/*### loop ###*/
-
-#headerpost #lead  {float: center;
-                    width: 300px;
-                    margin-left: 25px;}
-
-#headerpost h2     {margin: 20px 0;font-family: 華康粗明體 ;}
-
-#headerpost .more  {font-size: 18px;
-                    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
-                    font-weight: bold;text-align: center;}
-
-#headerpost .more a {color: #000000;
-                     background-image: url(img/more.png);
-                     background-size: 28px;
-                     background-repeat: no-repeat;
-                     background-position: right center;
-                     display: block;
-                     padding: 10px 40px 10px 0;
-                     text-decoration: none;}
-
-#headerpost   {overflow: hidden;}
-               
 
 /* ### POST 圖文 ###*/
 .post_title{font-size: 24px;
@@ -136,7 +107,10 @@ margin: 0px;}
            font-family: 華康華藝體W4;
            margin-bottom: 20px;}
 
-.post img {width: 420px;
+
+.post    {width: 23%;float: left; margin:auto;}
+
+.post img {width: 100%;
            height: auto;
            vertical-align: bottom;
            border:none;}

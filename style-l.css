@@ -1,5 +1,6 @@
 /* ### 版面設計 ###*/
-body{background-color: white;
+body{width: 100%;height: auto;
+    background-color: white;
      margin: 0px 0px;
      font-family:Arial, '新細明體', sans-serif;
      overflow: scroll;}
@@ -52,8 +53,18 @@ body::-webkit-scrollbar-thumb {
 
 
 /*### 浮動菜單選項 ###*/
+#navtitle{float: left;
+          display: inline-block;
+          vertical-align: left;
+          position: relative;
+          margin: 25px 20px;}
+#navtitle li {list-style-type: none;
+              color: white;
+              font-weight: bold;
+              font-size: 16pt;}
+
 #nav  {float: right;
-margin: 0px;}
+       margin: 0px;}
 
 #nav ul  {margin: 0px;
           padding: 0;}
@@ -67,6 +78,7 @@ margin: 0px;}
   position: relative; 
   transition: 0.5s; }
 
+/*### 浮動菜單動畫 ###*/
 .navE{
     font-size: 16px;
     font-family: 微軟正黑體;
@@ -226,17 +238,17 @@ margin: 0px;}
 
 /* ### FOOTER ###*/
 #footer  {width: 100%;
-  height: auto;background-color: #32547D;
-         padding: 15px;}
+          height: auto;
+          background-color: #32547D;}
 
 
 #footer p  {float: left;
-            margin-top: 10px;
+            margin: 15px;
             color: white;}
 
 #iconmenu  {float: right;}
 
-#iconmenu ul  {margin: 0;
+#iconmenu ul  {margin: 15px;
                padding: 3px 0 0;}
 
 #iconmenu li  {display: inline;
@@ -250,7 +262,7 @@ margin: 0px;}
                font-size: 12px;
                overflow: hidden;} 
 
-#submenu ul       {margin: 3px;
+#submenu ul       {margin: 0px 15px;
                padding: 0;}
 
 #submenu li       {list-style-type: none;
@@ -274,7 +286,8 @@ small  {font-size: 12px;
         font-weight: bold;
         display: block;
         color: white;
-        margin-top: 10px;}
+        margin-top: 10px;
+        margin-left: 15px}
 
 
 
