@@ -109,23 +109,15 @@ body::-webkit-scrollbar-thumb {
     color: #2D2D2D;
     text-align: center;}
 
-/*### 浮動菜單 ###*/
-#site   {float: left;}
-#site h1 {margin: 0;}
-#site img {vertical-align: center;
-           margin-left: 20px;
-           margin-top: 6px;
-           width: 70px;}
-
-
 
 /*### 浮動菜單 ###*/
 #site   {float: left;}
 #site h1 {margin: 0;}
 #site img {vertical-align: center;
-           margin-left: 20px;
-           margin-top: 6px;
-           width: 70px;}
+           margin-left: 0px;
+           margin-top: 5px;
+           width: 250px;}
+
 
 
 /*### 浮動菜單選項 ###*/
